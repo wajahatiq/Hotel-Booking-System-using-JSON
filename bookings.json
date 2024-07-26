@@ -1,0 +1,20 @@
+[
+    {
+        "guest_name": "Hamza",
+        "room_number": "12",
+        "check_in_date": "2024-08-13",
+        "check_out_date": "2024-08-14"
+    },
+    {
+        "guest_name": "Ali",
+        "room_number": "33",
+        "check_in_date": "2024-08-30",
+        "check_out_date": "2024-09-20"
+    },
+    {
+        "guest_name": "Raza",
+        "room_number": "4",
+        "check_in_date": "1997-03-12",
+        "check_out_date": "1997-09-1"
+    }
+]
