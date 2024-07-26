@@ -24,3 +24,12 @@ def add_booking(guest_name, room_number, check_in_date, check_out_date):
     bookings.append(new_booking)
     save_bookings(bookings)
     print(f"Booking added for {guest_name} in room {room_number}.")
+
+# View booking method
+def view_bookings():
+    bookings = load_bookings()
+    if not bookings:
+        print("No bookings found.")
+        return
+    for booking in bookings:
+        print(f"Guest: {booking['guest_name']}, Room: {booking['room_number']}, Check-in: {booking['check_in_date']}, Check-out: {booking['check_out_date']}")
